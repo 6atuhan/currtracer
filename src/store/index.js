@@ -26,9 +26,8 @@ export default new Vuex.Store({
     state.list.push(currency)
     },
     deleteCurrency(state,currency){
-      console.log('state.list :>> ', state.list);
       state.list = state.list.filter(i => i != currency)
-      console.log('state.list :>> ', state.list);
+
 
 
     }
